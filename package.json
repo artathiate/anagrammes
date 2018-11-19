@@ -1,0 +1,53 @@
+{
+  "name": "typescript_tips",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tesst specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aser75/typescript_gulp.git"
+  },
+  "author": "maxence puppetto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aser75/typescript_gulp/issues"
+  },
+  "homepage": "https://github.com/aser75/typescript_gulp#readme",
+  "devDependencies": {
+    "@babel/preset-es2016": "^7.0.0-beta.53",
+    "@types/jquery": "^3.3.4",
+    "@types/slick-carousel": "^1.6.32",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-csso": "latest",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "latest",
+    "gulp-minify": "^1.0.0",
+    "gulp-rename": "latest",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stylus": "latest",
+    "gulp-typescript": "^5.0.0-alpha.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.0",
+    "tsify": "^4.0.0",
+    "typescript": "^2.9.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1",
+    "jquery": "^3.1.1"
+  }
+}

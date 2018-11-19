@@ -1,0 +1,98 @@
+#site-navigation
+   position absolute
+   right 30px
+   top 10px
+
+   > div
+      ul
+         display -ms-flexbox
+         display -webkit-flex
+         display flex
+         -ms-flex-direction row
+         -webkit-flex-direction row
+         flex-direction row
+
+         li
+            a
+               padding 5px 10px
+               margin 0 5px
+               color white
+
+         li:last-child
+            margin-right 0
+            padding-right 0
+
+            a
+               margin-right 0
+
+   > div
+      display none
+
+   .menu-toggle
+      display none
+      position relative
+      width 25px
+      height 25px
+      margin-left 20px
+      margin-top 0
+      border none
+      background-color transparent
+
+      span
+         position absolute
+         top 50%
+         left 50%
+         transform translateX(-50%) translateY(-50%)
+         display block
+         width 25px
+         height 2px
+         background-color red
+
+         &:before,
+         &:after
+            content ''
+            position absolute
+            top 0
+            left 0
+            transform translateY(-6px)
+            display block
+            width 25px
+            height 2px
+            background-color red
+            transition transform 0.5s
+
+         &:after
+            transform translateY(6px)
+
+
+@media (min-width: 768px)
+   #site-navigation
+      > div
+         display block
+
+
+@media (max-width: 768px)
+   #site-navigation
+      > div
+         display block
+         
+      .menu-toggle
+         display block
+
+      .nav-menu
+         display block
+         position fixed
+         left 0
+         right 0
+         background white
+         transition all ease 200ms !important
+         transform translateX(-100%)
+
+
+   .with--burger
+      #site-navigation
+         .nav-menu
+            transform translateX(0%)
+
+            a
+               color red
